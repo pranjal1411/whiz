@@ -1,0 +1,21 @@
+//from home.php
+<?php
+
+ // Keep reminding the user this account is not active, until they activate
+ if ( !$active ){
+     echo
+     '<div class="info">
+     Account is unverified, please confirm your email by clicking
+     on the email link!
+     </div>';
+ }
+
+ ?>
+ ///end
+ <div class="dropdown">
+         <button id="1" onclick="myFunction(this.id)" class="dropbtn">I</button>
+         <div id="sub1" class="dropdown-content">
+           <a href="#">Mathematics</a>
+           <a href="#">English</a>
+         </div>
+ </div>
